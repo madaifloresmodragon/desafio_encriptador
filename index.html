@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel = "stylesheet" href = "./styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/Logo.png" alt="logo allura">
+    </header>
+    <main class = "principal">
+        <div class="lado_izquierdo">
+            <div class="input-container">
+                <label for="texto" class="placeholder-label">Ingrese el texto aquí</label>
+                <textarea id="texto"></textarea>
+            </div>
+            <div class="botones">
+                <button class="boton_1" id="encriptar">Encriptar</button>
+                <button class="boton_2" id="desencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="lado_derecho">
+            <img id="imagen" src="./assets/imagen.png" alt="imagen de buscador">
+            <p id="resultado" style="display: none;">Ningún mensaje fue encontrado</p>
+            <p id="mensaje_inicial">Ingresa el texto que deseas encriptar o desencriptar</p>
+            
+            <button id="copiar" class="boton_3" style="display: none;">Copiar</button>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./js/encriptador.js"></script>
+</body>
+</html>

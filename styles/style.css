@@ -1,0 +1,114 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*Codigo agregado*/
+}
+
+body {
+    background-color: white;
+}
+
+.header{
+    padding: 2% 0% 0% 5%;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 10%;
+    gap: 50px;
+}
+
+.lado_izquierdo{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Agrgadod*/
+    gap: 20px; /*Agregado*/
+}
+
+.botones{
+    display:flex;
+    gap: 2em;
+    justify-content: center;
+    
+}
+
+.boton_1{
+    background-color: #0A3871;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid white;
+    width: 328px;
+    height: 67px;
+}
+
+.boton_2{
+    background-color: #D8DFE8;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    width: 328px;
+    height: 67px;
+}
+
+
+.lado_derecho{
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    align-items: center; /*Agrgadod*/
+    gap: 20px; /*Agregado*/
+    background-color: #F0F0F0;
+    padding: 10px;
+}
+
+.boton_3{
+    background-color: #D8DFE8;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    width: 328px;
+    height: 67px;
+    align-self: center; /*centrado del boton*/
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaa*/
+.input-container {
+    position: relative;
+    width: 350px;
+}
+
+.placeholder-label {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    font-size: 16px;
+    color: #999;
+    background-color: #F0F0F0;
+    padding: 0 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    background-color: #F0F0F0;
+    font-size: 16px;
+    resize: none;
+    overflow-wrap: break-word; 
+}
+
+#resultado {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #D8DFE8;
+    border-radius: 12px;
+    background-color: #F0F0F0;
+    word-wrap: break-word;
+}
